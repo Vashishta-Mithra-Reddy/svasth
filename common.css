@@ -1,0 +1,62 @@
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d4d4d4; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a9a9a9;
+  }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+@keyframes fade-in-z {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100lvh;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    overflow-x: hidden;
+}
+.main-container{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 40px;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0px 4px 2px rgba(0,0,0,0.05), 
+            0 6px 10px rgba(0,0,0,0.22);
+    /* overflow: hidden; */
+    width: 100%;
+    padding: 40px;
+    max-width: 100%;
+    min-height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hospital_image{
+    width: 100%;
+    height: 100%;
+}
+

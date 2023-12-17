@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .main-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .image-container {
+            flex: 0 0 auto;
+            margin-right: 20px;
+        }
+
+        .hospital-img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .info-container {
+            flex: 1;
+        }
+
+        .hospital-info {
+            margin-bottom: 10px;
+        }
+
+        .hospital-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .hospital-address {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .directions-button {
+            text-align: right;
+        }
+
+        .directions-link {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .directions-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="card">
+            <div class="image-container">
+                <img class="hospital-img" src="graphics/hospital.svg" alt="Hospital">
+            </div>
+            <div class="info-container">
+                <div class="hospital-info">
+                    <p class="hospital-name">Charaka</p>
+                    <p class="hospital-address">Hospital Address</p>
+                </div>
+                <div class="directions-button">
+                    <a href="https://www.google.com/maps/dir//CARE+Hospitals,+Banjara+Hills+%7C+Best+Hospital+in+Hyderabad,+Rd+Number+1,+Prem+Nagar,+Banjara+Hills,+Hyderabad,+Telangana+500034/@17.4126129,78.310168,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bcb972ff51ff959:0x55376a3d51b6637!2m2!1d78.4502437!2d17.4126129?entry=ttu" 
+                       target="_blank" class="directions-link">Get Directions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

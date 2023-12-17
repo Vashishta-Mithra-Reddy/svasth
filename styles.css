@@ -1,0 +1,263 @@
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d4d4d4; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a9a9a9;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    -webkit-tap-highlight-color: transparent !important;
+}
+footer{
+  margin: 0px;
+}
+main{
+  margin: 0px;
+}
+body {
+    min-height: 100lvh;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.imgcontain img{
+    width: 80px;
+    height: 80px;
+	cursor: pointer;
+
+}
+#logo-contain{
+  display: flex;
+}
+
+.nav-ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 1px -20px 30px 0px ;
+    list-style: none;
+}
+
+.nav-li:nth-child(2) {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.nav-li:last-child {
+    margin-right: 10px;
+}
+.nav-li:nth-child(8) {
+	margin-right: 10px;
+}
+.sidebar-li:last-child {
+    margin-bottom: 10px;
+}
+
+.nav-li a {
+    text-decoration: none;
+    font-family: "League Spartan";
+    font-size: 20px;
+    color: black;
+    display: block; 
+    padding: 20px; 
+    height: 100%;
+    border-radius: 5px;
+}
+.nav-li a:hover{
+    background-color: rgb(247, 247, 247);
+}
+.nav-li:last-child {
+	background-color: rgb(240,240,240);
+  margin-left: 5px;
+  border-radius: 5px;
+  
+}
+
+.nav-li:last-child a:hover{
+	color: rgb(50,50,50);
+} 
+
+.sidebar-li:last-child a:hover{
+	color: rgb(120,120,120);
+}
+.sidebar-li a:hover{
+	transition: all 0.3s;
+	padding: 10px 10px 10px 30px;
+	transition: all 0.3s;
+}
+.sidebar-ul{
+    display: none;
+    flex-direction: column;
+    list-style: none;
+}
+
+.sidebar-li:first-child{
+	margin-top:10px;
+}
+
+.sidebar-li a {
+    text-decoration: none;
+    font-family: "League Spartan";
+    font-size: 20px;
+    color: black;
+    display: block; 
+    padding: 10px 20px; 
+    height: 100%;
+    border-radius: 5px;
+}
+.sidebar-li a:hover{
+	background-color: rgb(247, 247, 247);
+}
+
+.nav-icon {
+    padding: 20px;
+    display: none;
+    position: absolute;
+    left: 10px;
+    user-select: none;
+}
+.sidebar-icon {
+    padding: 20px;
+    user-select: none;
+}
+.material-symbols-rounded:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 945px) {
+    .nav-li:not(:first-child) {
+      display: none;
+    }
+	.nav-li:nth-child(2) {
+		display: flex;
+		margin-left:auto;
+		
+	}
+  #logo_title{
+    display: none;
+  }
+
+    .nav-icon{
+        display: flex;
+    }
+	
+  
+    .nav-li:first-child {
+      transition: all 0.3s;
+      margin-right: 0px;
+    }
+    
+    .nav-ul {
+      transition: all 0.3s;
+      justify-content: center;
+    }
+
+    .footer-links{
+      display: none;
+    }
+    .footer-social{
+      display: none;
+    }
+
+  }
+
+
+main{
+	height: 100lvh;
+	display:flex;
+	align-items:center;
+	justify-content:center;	
+}	
+
+footer {
+  background-color: #f8f8f8;
+  padding: 40px 30px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  width: 120px; /* Adjust as needed */
+  height: auto;
+}
+
+.footer-info {
+  flex: 1;
+  margin-top: 20px;
+  max-width: 250px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #007bff;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer-social li {
+  margin-right: 10px;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #007bff;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.footer-content h3{
+  margin: 10px 0px;
+}
+
+
+
